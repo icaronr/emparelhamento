@@ -1,4 +1,4 @@
-Projeto 3 - Teoria de Aplicação de Grafos - 1/2018
+#Projeto 3 - Teoria de Aplicação de Grafos - 1/2018
 
 O objetivo do programa é fazer o emparelhamento entre os professores e as escolas, de acordo com as preferências.
 
