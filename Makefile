@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-c -Wall
+CFLAGS=-c -std=c++11 -Wall
 
 all: emparelhamento
 
