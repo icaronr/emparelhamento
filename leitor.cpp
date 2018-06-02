@@ -3,37 +3,9 @@
 #include <vector>
 #include <string>
 #include "leitor.hpp"
+#include "processador.hpp"
 
 using namespace std;
-
-//---------------------------------------------
-//  Professor
-
-Professor::Professor(){
-    this->id = 0;
-    this->habilitacoes = 0;
-}
-
-Professor::Professor(int id, int habilitacoes, vector<int> preferencias){
-    this->id = id;
-    this->habilitacoes = habilitacoes;
-    this->preferencias = preferencias;
-}
-
-//---------------------------------------------
-//  Escola
-
-Escola::Escola(){
-    this->id = 0;
-    this->habilitacoes = 0;
-    this->vagas = 0;
-}
-
-Escola::Escola(int id, int habilitacoes, int vagas){
-    this->id = id;
-    this->habilitacoes = habilitacoes;
-    this->vagas = vagas;
-}
 
 //---------------------------------------------
 //  Leitor
@@ -41,18 +13,32 @@ void Leitor::trataLinha(string linha){
     string l1 = linha.substr(0, 2);
     //Linhas que representam professores
     if(l1 == "(P"){
+        cout << "TIPO : PROFESSOR!" << endl;
         Professor prof;
+        cout << "setou professor" << endl;
         int pos, virg;
+        int id, habilitacoes;
+        vector <int> preferencias;
+        cout << "setou variaveis" << endl;
         //faz um "split" em ':'
         pos = linha.find(':',0);
+        cout << "achou : " << endl;
         l1 = linha.substr(0, pos);
+        cout << "separou" << endl;
         //cout << l1 << endl;
         virg = l1.find(',',0);
+        cout << "achou a , " << endl;
         //Pega o id "antes da virgula"
-        prof.id = stoi(l1.substr(2,virg),nullptr,10);
+        cout << stoi(l1.substr(2, virg), nullptr, 10) << endl;
+
+        id = stoi(l1.substr(2, virg), nullptr, 10);
+        cout << "id = " << id << endl;
+       // cout << "\n  id  ";
         //cout << prof.id << endl;
         //Pega as habilitacoes "depois da virgula"
-        prof.habilitacoes = stoi(l1.substr(virg+1, l1.size()), nullptr, 10);
+        cout << linha.substr(pos + 2, linha.size());
+        habilitacoes = stoi(l1.substr(virg+1, l1.size()), nullptr, 10);
+        cout << "  Habilitacao = " << habilitacoes << endl;
         //cout << prof.habilitacoes << endl;
         //vai pra segunda metade da string
         l1 = linha.substr(pos+2, linha.size());
@@ -61,11 +47,14 @@ void Leitor::trataLinha(string linha){
         //pega as preferencias
         //o maior vai ser o 'front' e o menor vai ser o 'back'
         for(int i=0;i<5;i++){
-            prof.preferencias.push_back(stoi(l1.substr(virg+2,l1.find(',',virg))));
+            preferencias.push_back(stoi(l1.substr(virg+2,l1.find(',',virg))));
             virg = l1.find(',', virg)+1;
+            cout << "  preferencia " << i << " = " << preferencias.back() << "  ";
         }
         //cout << prof.preferencias.front() << endl;
+        prof = Professor(id, habilitacoes, preferencias);
         professores.push_back(prof);
+        cout << endl;
     }
     else{
         //Linhas que representam escolas
@@ -83,7 +72,8 @@ void Leitor::trataLinha(string linha){
             colegio.habilitacoes = stoi(l1, nullptr, 10);
 
             l1 = linha.substr(pos1+pos+2, 1);
-            colegio.vagas = stoi(l1, nullptr, 10);
+            colegio.vagas.total = stoi(l1, nullptr, 10);
+            colegio.vagas.disponiveis = colegio.vagas.total;
             
             escolas.push_back(colegio);
         }
@@ -98,7 +88,9 @@ int Leitor::leitura(string nomearquivo){
     if (arquivo.is_open()){
         cout << "Arquivo aberto!" << endl;
         string linha;
+        cout << "Iniciando a leitura do arquivo.." << endl;
         while(arquivo.good()){
+            cout << "LINHA ACESSIVEL!" << endl;
             getline(arquivo, linha);
             trataLinha(linha);
         }
@@ -115,5 +107,11 @@ int Leitor::leitura(string nomearquivo){
         return 1;
     }
 
+    return 0;
+}
+
+int Leitor::chamaProcesso(){
+    //Processador* proc = new Processador;
+    cout << "INICIAR O PROCESSADOR COM OS DOIS VETORES, POSSIVELMENTE COM PONTEIROS P NAO DUPLICAR" << endl;
     return 0;
 }
