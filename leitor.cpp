@@ -121,7 +121,7 @@ int Leitor::chamaProcesso(){
     getchar();
     cout << "Iniciando o Emparelhamento.." << endl;
     proc->emparelhar();
-    cout << "\n Emparelhado" << endl;
+    cout << "\nEmparelhado!\n\n" << endl;
     proc->mostrador();
     return 0;
 }

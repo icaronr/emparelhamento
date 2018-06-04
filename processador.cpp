@@ -38,15 +38,15 @@ void Processador::emparelhar(){
 //organiza o vetor de escolas pelo maior numero de habilitacoes
 //sort(escolass.begin(), escolass.end(), sortByHabs());
 //cout << "sorted" << endl;
-int listasPercorridas = 0;
-int alocados = 0;
+unsigned int listasPercorridas = 0;
+unsigned int alocados = 0;
 //Corre 5 vezes, passando pelas 5 preferencias de cada professor
 while((listasPercorridas+alocados < professoress.size())){
     // Corre para cada professor
-    for(int pIndex=0;pIndex<professoress.size();pIndex++){
+    for(unsigned int pIndex=0;pIndex<professoress.size();pIndex++){
         //Se o professor nao esta emparelhado
         if(professoress[pIndex].emparelhado == false && professoress[pIndex].prefAtual < 5){
-        cout << "professor " << professoress[pIndex].id << " /  prefatual  " << professoress[pIndex].prefAtual << endl;
+        //cout << "professor " << professoress[pIndex].id << " /  prefatual  " << professoress[pIndex].prefAtual << endl;
             int eid = professoress[pIndex].preferencias[professoress[pIndex].prefAtual];
             // Se existe alguma vaga disponivel, matricula o professor
             if(escolass[eid-1].vagasDiponiveis>0){
@@ -54,7 +54,7 @@ while((listasPercorridas+alocados < professoress.size())){
                 if(professoress[pIndex].habilitacoes >= escolass[eid-1].habilitacoes){
                     // cada professor só tem 5 preferencias, se tentar acessar uma 6a, seg.fault.
                     if(professoress[pIndex].prefAtual < 5){
-                        cout << "matriculando" << endl;
+                    //    cout << "matriculando" << endl;
 
                         //parte do professor
                         professoress[pIndex].emparelhado = true;
@@ -62,12 +62,12 @@ while((listasPercorridas+alocados < professoress.size())){
                         // o '+1' é por conta dos indices começarem em '0', aí o '+1' serve de offset;
                         professoress[pIndex].parPeso = professoress[pIndex].prefAtual + 1;
                         professoress[pIndex].prefAtual++;
-                        cout << "JOOOO    " << professoress[pIndex].prefAtual << endl;
+                      //  cout << "JOOOO    " << professoress[pIndex].prefAtual << endl;
 
                         //parte da escola
-                        cout << "Tamanho antes -- " << escolass[eid - 1].idProfessor.size() << "  /  ";
+                        //cout << "Tamanho antes -- " << escolass[eid - 1].idProfessor.size() << "  /  ";
                         escolass[eid - 1].idProfessor.push_back(professoress[pIndex].id);
-                        cout << "Tamanho depois -- " << escolass[eid - 1].idProfessor.size() << endl;
+                        //cout << "Tamanho depois -- " << escolass[eid - 1].idProfessor.size() << endl;
                         escolass[eid - 1].vagasDiponiveis--;
                         alocados++;
 
@@ -85,7 +85,7 @@ while((listasPercorridas+alocados < professoress.size())){
                     
                 }//sem habilitacao
                 else{
-                    cout << "sem habs" << endl;
+                   // cout << "sem habs" << endl;
                     professoress[pIndex].prefAtual++;
                     if (professoress[pIndex].prefAtual > 4){
                         listasPercorridas++;
@@ -95,7 +95,7 @@ while((listasPercorridas+alocados < professoress.size())){
                }else{
                     if(professoress[pIndex].habilitacoes >= escolass[eid-1].habilitacoes){
 
-                        cout << "tentando realocar" << endl;
+                     //   cout << "tentando realocar" << endl;
                    
                         int profAtual = escolass[eid-1].idProfessor.back();
                         // o '+1' é por conta dos indices começarem em '0', aí o '+1' serve de offset;
@@ -124,12 +124,12 @@ while((listasPercorridas+alocados < professoress.size())){
                             // o '+1' é por conta dos indices começarem em '0', aí o '+1' serve de offset;
                             professoress[pIndex].parPeso = professoress[pIndex].prefAtual + 1;
                             professoress[pIndex].prefAtual++;
-                            cout << "JOOOO    " << professoress[pIndex].prefAtual << endl;
+                           // cout << "JOOOO    " << professoress[pIndex].prefAtual << endl;
 
                             //parte da escola
-                            cout << "Tamanho antes -- " << escolass[eid - 1].idProfessor.size() << "  /  ";
+                            //cout << "Tamanho antes -- " << escolass[eid - 1].idProfessor.size() << "  /  ";
                             escolass[eid - 1].idProfessor.push_back(professoress[pIndex].id);
-                            cout << "Tamanho depois -- " << escolass[eid - 1].idProfessor.size() << endl;
+                            //cout << "Tamanho depois -- " << escolass[eid - 1].idProfessor.size() << endl;
                             escolass[eid - 1].vagasDiponiveis--;
                             alocados++;
 
@@ -145,7 +145,7 @@ while((listasPercorridas+alocados < professoress.size())){
                         }
                     }//sem habilitacoes
                     else{
-                        cout << "sem habs" << endl;
+                        //cout << "sem habs" << endl;
                         professoress[pIndex].prefAtual++;
                         if (professoress[pIndex].prefAtual > 4)
                         {
@@ -155,10 +155,8 @@ while((listasPercorridas+alocados < professoress.size())){
                 }
             }
         }//end-for(professores)
-        cout << "\n\nlistas finalizadas -- " << listasPercorridas << " /  Alocados  " << alocados << endl;
-       getchar();
-
-   }
+        //cout << "\n\nlistas finalizadas -- " << listasPercorridas << " /  Alocados  " << alocados << endl;
+    }
 
 }
 
