@@ -117,6 +117,8 @@ int Leitor::leitura(string nomearquivo){
 
 int Leitor::chamaProcesso(){
     Processador* proc = new Processador(professores, escolas);
+    proc->cobertura();
+    getchar();
     cout << "Iniciando o Emparelhamento.." << endl;
     proc->emparelhar();
     cout << "\n Emparelhado" << endl;

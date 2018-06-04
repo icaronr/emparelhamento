@@ -10,6 +10,7 @@ public:
   vector<Professor> professoress;
   vector<Escola> escolass;
   Processador(vector<Professor> professores, vector<Escola> escolas);
+  void cobertura();
   void emparelhar();
   void mostrador();
 
