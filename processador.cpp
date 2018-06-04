@@ -34,7 +34,7 @@ void Processador::cobertura(){
     }*/
 }
 
-void Processador::emparelhar(){
+void Processador::emparelhar(int entrada){
 //organiza o vetor de escolas pelo maior numero de habilitacoes
 //sort(escolass.begin(), escolass.end(), sortByHabs());
 //cout << "sorted" << endl;
@@ -69,7 +69,7 @@ while((listasPercorridas+alocados < professoress.size())){
                         escolass[eid - 1].idProfessor.push_back(professoress[pIndex].id);
                         //cout << "Tamanho depois -- " << escolass[eid - 1].idProfessor.size() << endl;
                         escolass[eid - 1].vagasDiponiveis--;
-                        alocados++;
+                        
 
                         if (professoress[pIndex].prefAtual > 4){
                             listasPercorridas++;
@@ -91,7 +91,7 @@ while((listasPercorridas+alocados < professoress.size())){
                         listasPercorridas++;
                     }
                 }
-                // Se não houver vaga disponível, compara o peso desse professor, com o(s) contratado(s)
+                // Se não houver vaga disponível, compara as habilitacoes.  
                }else{
                     if(professoress[pIndex].habilitacoes >= escolass[eid-1].habilitacoes){
 
@@ -99,8 +99,16 @@ while((listasPercorridas+alocados < professoress.size())){
                    
                         int profAtual = escolass[eid-1].idProfessor.back();
                         // o '+1' é por conta dos indices começarem em '0', aí o '+1' serve de offset;
-                        // Se o peso for menor que o peso do que esta atualmente, o atual sai e o novo entra
-                        if(professoress[pIndex].prefAtual+1<professoress[profAtual-1].parPeso){
+                        // Se o candidato tiver mais habilitacoes, a escola troca.
+                        bool deveTrocar=false;
+                        if(entrada == 1){
+                            deveTrocar = professoress[pIndex].habilitacoes > professoress[profAtual - 1].habilitacoes;
+                        }else{
+                            if ((professoress[profAtual - 1].habilitacoes != escolass[eid-1].habilitacoes)&&(professoress[pIndex].habilitacoes == escolass[eid - 1].habilitacoes)){
+                                deveTrocar = true;
+                            }
+                        }
+                        if(deveTrocar){
                             // id = index + 1 -- profAtual é ID.
                             //desmatricula
                             professoress[profAtual - 1].emparelhado = false;
@@ -116,7 +124,7 @@ while((listasPercorridas+alocados < professoress.size())){
                                 escolass[eid - 1].idProfessor.push_back(aux);
                                 escolass[eid - 1].vagasDiponiveis++;
                             }
-
+                            
                             //matricula o novo
                             //parte do professor
                             professoress[pIndex].emparelhado = true;
@@ -131,13 +139,13 @@ while((listasPercorridas+alocados < professoress.size())){
                             escolass[eid - 1].idProfessor.push_back(professoress[pIndex].id);
                             //cout << "Tamanho depois -- " << escolass[eid - 1].idProfessor.size() << endl;
                             escolass[eid - 1].vagasDiponiveis--;
-                            alocados++;
+                            
 
                             if (professoress[pIndex].prefAtual > 4){
                                 listasPercorridas++;
                             }
                         }else{
-                            //peso nao vale
+                            //caso nao troque
                             professoress[pIndex].prefAtual++;
                             if (professoress[pIndex].prefAtual > 4){
                                 listasPercorridas++;
@@ -155,7 +163,13 @@ while((listasPercorridas+alocados < professoress.size())){
                 }
             }
         }//end-for(professores)
-        //cout << "\n\nlistas finalizadas -- " << listasPercorridas << " /  Alocados  " << alocados << endl;
+        alocados = 0;
+        for(auto profe : professoress){
+            if(profe.emparelhado == true){
+                alocados++;
+            }
+        }
+        cout << "\n\nlistas finalizadas -- " << listasPercorridas << " /  Alocados  " << alocados << endl;
     }
 
 }

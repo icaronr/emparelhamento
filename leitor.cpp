@@ -116,11 +116,15 @@ int Leitor::leitura(string nomearquivo){
 }
 
 int Leitor::chamaProcesso(){
+    int entrada =0;
     Processador* proc = new Processador(professores, escolas);
     proc->cobertura();
-    getchar();
+    cout << "Escolha um metodo de emparelhamento: " << endl;
+    cout << "1 - Metodo egoista: a escola prefere o candidato com mais habilitacoes, desde que seja maior que a minima exigida" << endl;
+    cout << "2 - Metodo altruista: a escola fica satisfeita com um candidato que satisfaca os requisitos, e deixa os com mais habilitacoes livres para as escolas com mais requerimentos" << endl;
+    cin >> entrada;
     cout << "Iniciando o Emparelhamento.." << endl;
-    proc->emparelhar();
+    proc->emparelhar(entrada);
     cout << "\nEmparelhado!\n\n" << endl;
     proc->mostrador();
     return 0;
