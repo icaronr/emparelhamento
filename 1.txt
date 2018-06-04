@@ -1,0 +1,239 @@
+Vamos começar.
+Arquivo aberto!
+Iniciando a leitura do arquivo..
+Fechando o arquivo...
+Arquivo fechado!
+numero de professores -- 100
+numero de escolas     -- 50
+Iniciando o Emparelhamento..
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 0  /  Tamanho depois -- 1
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+Tamanho antes -- 1  /  Tamanho depois -- 2
+
+ Emparelhado
+id - 1  emparelhado? 1   escola - 10  peso - 1
+id - 2  emparelhado? 1   escola - 10  peso - 1
+id - 3  emparelhado? 0   escola - 0  peso - 0
+id - 4  emparelhado? 0   escola - 0  peso - 0
+id - 5  emparelhado? 0   escola - 0  peso - 0
+id - 6  emparelhado? 1   escola - 5  peso - 2
+id - 7  emparelhado? 0   escola - 0  peso - 0
+id - 8  emparelhado? 0   escola - 0  peso - 0
+id - 9  emparelhado? 1   escola - 9  peso - 3
+id - 10  emparelhado? 0   escola - 0  peso - 0
+id - 11  emparelhado? 1   escola - 20  peso - 1
+id - 12  emparelhado? 1   escola - 20  peso - 1
+id - 13  emparelhado? 1   escola - 13  peso - 3
+id - 14  emparelhado? 1   escola - 14  peso - 3
+id - 15  emparelhado? 0   escola - 0  peso - 0
+id - 16  emparelhado? 0   escola - 0  peso - 0
+id - 17  emparelhado? 0   escola - 0  peso - 0
+id - 18  emparelhado? 0   escola - 0  peso - 0
+id - 19  emparelhado? 1   escola - 19  peso - 3
+id - 20  emparelhado? 0   escola - 0  peso - 0
+id - 21  emparelhado? 1   escola - 30  peso - 1
+id - 22  emparelhado? 1   escola - 30  peso - 1
+id - 23  emparelhado? 1   escola - 23  peso - 3
+id - 24  emparelhado? 0   escola - 0  peso - 0
+id - 25  emparelhado? 1   escola - 25  peso - 3
+id - 26  emparelhado? 1   escola - 45  peso - 2
+id - 27  emparelhado? 0   escola - 0  peso - 0
+id - 28  emparelhado? 0   escola - 0  peso - 0
+id - 29  emparelhado? 1   escola - 29  peso - 3
+id - 30  emparelhado? 1   escola - 31  peso - 4
+id - 31  emparelhado? 1   escola - 40  peso - 1
+id - 32  emparelhado? 1   escola - 32  peso - 3
+id - 33  emparelhado? 1   escola - 33  peso - 3
+id - 34  emparelhado? 1   escola - 34  peso - 3
+id - 35  emparelhado? 0   escola - 0  peso - 0
+id - 36  emparelhado? 1   escola - 21  peso - 4
+id - 37  emparelhado? 1   escola - 2  peso - 2
+id - 38  emparelhado? 0   escola - 0  peso - 0
+id - 39  emparelhado? 0   escola - 0  peso - 0
+id - 40  emparelhado? 1   escola - 11  peso - 4
+id - 41  emparelhado? 1   escola - 41  peso - 3
+id - 42  emparelhado? 1   escola - 4  peso - 2
+id - 43  emparelhado? 1   escola - 43  peso - 3
+id - 44  emparelhado? 1   escola - 44  peso - 3
+id - 45  emparelhado? 0   escola - 0  peso - 0
+id - 46  emparelhado? 1   escola - 46  peso - 3
+id - 47  emparelhado? 1   escola - 1  peso - 4
+id - 48  emparelhado? 1   escola - 48  peso - 3
+id - 49  emparelhado? 0   escola - 0  peso - 0
+id - 50  emparelhado? 0   escola - 0  peso - 0
+id - 51  emparelhado? 1   escola - 50  peso - 1
+id - 52  emparelhado? 1   escola - 49  peso - 1
+id - 53  emparelhado? 1   escola - 48  peso - 1
+id - 54  emparelhado? 1   escola - 47  peso - 1
+id - 55  emparelhado? 1   escola - 46  peso - 1
+id - 56  emparelhado? 1   escola - 45  peso - 1
+id - 57  emparelhado? 1   escola - 44  peso - 1
+id - 58  emparelhado? 1   escola - 43  peso - 1
+id - 59  emparelhado? 1   escola - 42  peso - 1
+id - 60  emparelhado? 1   escola - 41  peso - 1
+id - 61  emparelhado? 0   escola - 0  peso - 0
+id - 62  emparelhado? 1   escola - 39  peso - 1
+id - 63  emparelhado? 1   escola - 38  peso - 1
+id - 64  emparelhado? 1   escola - 37  peso - 1
+id - 65  emparelhado? 1   escola - 36  peso - 1
+id - 66  emparelhado? 1   escola - 35  peso - 1
+id - 67  emparelhado? 1   escola - 34  peso - 1
+id - 68  emparelhado? 1   escola - 33  peso - 1
+id - 69  emparelhado? 1   escola - 32  peso - 1
+id - 70  emparelhado? 1   escola - 31  peso - 1
+id - 71  emparelhado? 1   escola - 12  peso - 2
+id - 72  emparelhado? 1   escola - 29  peso - 1
+id - 73  emparelhado? 1   escola - 28  peso - 1
+id - 74  emparelhado? 1   escola - 27  peso - 1
+id - 75  emparelhado? 1   escola - 26  peso - 1
+id - 76  emparelhado? 1   escola - 25  peso - 1
+id - 77  emparelhado? 1   escola - 24  peso - 1
+id - 78  emparelhado? 1   escola - 23  peso - 1
+id - 79  emparelhado? 1   escola - 22  peso - 1
+id - 80  emparelhado? 1   escola - 21  peso - 1
+id - 81  emparelhado? 1   escola - 27  peso - 2
+id - 82  emparelhado? 1   escola - 19  peso - 1
+id - 83  emparelhado? 1   escola - 18  peso - 1
+id - 84  emparelhado? 1   escola - 17  peso - 1
+id - 85  emparelhado? 1   escola - 16  peso - 1
+id - 86  emparelhado? 1   escola - 15  peso - 1
+id - 87  emparelhado? 1   escola - 14  peso - 1
+id - 88  emparelhado? 1   escola - 13  peso - 1
+id - 89  emparelhado? 1   escola - 12  peso - 1
+id - 90  emparelhado? 1   escola - 11  peso - 1
+id - 91  emparelhado? 1   escola - 47  peso - 2
+id - 92  emparelhado? 1   escola - 9  peso - 1
+id - 93  emparelhado? 1   escola - 8  peso - 1
+id - 94  emparelhado? 1   escola - 7  peso - 1
+id - 95  emparelhado? 1   escola - 6  peso - 1
+id - 96  emparelhado? 1   escola - 5  peso - 1
+id - 97  emparelhado? 1   escola - 4  peso - 1
+id - 98  emparelhado? 1   escola - 3  peso - 1
+id - 99  emparelhado? 1   escola - 2  peso - 1
+id - 100  emparelhado? 1   escola - 1  peso - 1
+Escola - 1  v.disp - 0
+Escola - 2  v.disp - 0
+Escola - 3  v.disp - 0
+Escola - 4  v.disp - 0
+Escola - 5  v.disp - 0
+Escola - 6  v.disp - 0
+Escola - 7  v.disp - 0
+Escola - 8  v.disp - 0
+Escola - 9  v.disp - 0
+Escola - 10  v.disp - 0
+Escola - 11  v.disp - 0
+Escola - 12  v.disp - 0
+Escola - 13  v.disp - 0
+Escola - 14  v.disp - 0
+Escola - 15  v.disp - 0
+Escola - 16  v.disp - 0
+Escola - 17  v.disp - 0
+Escola - 18  v.disp - 0
+Escola - 19  v.disp - 0
+Escola - 20  v.disp - 0
+Escola - 21  v.disp - 0
+Escola - 22  v.disp - 0
+Escola - 23  v.disp - 0
+Escola - 24  v.disp - 0
+Escola - 25  v.disp - 0
+Escola - 26  v.disp - 0
+Escola - 27  v.disp - 0
+Escola - 28  v.disp - 0
+Escola - 29  v.disp - 0
+Escola - 30  v.disp - 0
+Escola - 31  v.disp - 0
+Escola - 32  v.disp - 0
+Escola - 33  v.disp - 0
+Escola - 34  v.disp - 0
+Escola - 35  v.disp - 0
+Escola - 36  v.disp - 0
+Escola - 37  v.disp - 0
+Escola - 38  v.disp - 0
+Escola - 39  v.disp - 0
+Escola - 40  v.disp - 0
+Escola - 41  v.disp - 0
+Escola - 42  v.disp - 1
+Escola - 43  v.disp - 0
+Escola - 44  v.disp - 0
+Escola - 45  v.disp - 0
+Escola - 46  v.disp - 0
+Escola - 47  v.disp - 0
+Escola - 48  v.disp - 0
+Escola - 49  v.disp - 0
+Escola - 50  v.disp - 0

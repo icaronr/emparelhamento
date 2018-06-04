@@ -5,34 +5,17 @@
 
 using namespace std;
 
-class Vagas
-{
-  public:
-    int total;
-    int disponiveis;
-    Vagas();
-    Vagas(int vagas);
-};
-
-class Conexao
-{
-  public:
-    // Conexao.feita, true se houver conexao estabelecida
-    bool feita;
-    // alvo da conexao
-    int alvo;
-    // peso da conexao
-    int peso;
-    Conexao();
-};
-
 class Professor
 {
   public:
     int id;
     int habilitacoes;
     vector<int> preferencias;
-    Conexao conexao;
+    int prefAtual;
+    bool emparelhado;
+    int parAlvo;
+    int parPeso;
+    //Conexao conexao;
     Professor();
     Professor(int id, int habilitacoes, vector<int> preferencias);
 };
@@ -42,9 +25,11 @@ class Escola
   public:
     int id;
     int habilitacoes;
-    Vagas vagas;
+    int vagasTotal;
+    int vagasDiponiveis;
+    vector <int> idProfessor;
     Escola();
-    Escola(int id, int habilitacoes, int vagas);
+    Escola(int id, int habilitacoes, int vagas, vector <int> idProfessor);
 };
 
 #endif
