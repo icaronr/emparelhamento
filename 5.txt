@@ -1,0 +1,131 @@
+Vamos começar.
+Arquivo aberto!
+Iniciando a leitura do arquivo..
+Fechando o arquivo...
+Arquivo fechado!
+numero de professores -- 100
+numero de escolas     -- 50
+Iniciando o Emparelhamento..
+
+Emparelhado!
+
+
+Professor(1)            - (10)Escola //  Hab(prof/escola) (3/1)  Pref.Prof(1)
+Professor(2)            - (10)Escola //  Hab(prof/escola) (2/1)  Pref.Prof(1)
+Professor(6)            - (5)Escola //  Hab(prof/escola) (2/1)  Pref.Prof(2)
+Professor(9)            - (9)Escola //  Hab(prof/escola) (2/1)  Pref.Prof(3)
+Professor(10)            - (23)Escola //  Hab(prof/escola) (3/3)  Pref.Prof(5)
+Professor(15)            - (20)Escola //  Hab(prof/escola) (3/3)  Pref.Prof(1)
+Professor(19)            - (41)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(5)
+Professor(20)            - (20)Escola //  Hab(prof/escola) (3/3)  Pref.Prof(1)
+Professor(22)            - (30)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(23)            - (30)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(25)            - (25)Escola //  Hab(prof/escola) (3/3)  Pref.Prof(3)
+Professor(26)            - (45)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(2)
+Professor(29)            - (29)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(3)
+Professor(30)            - (31)Escola //  Hab(prof/escola) (3/2)  Pref.Prof(4)
+Professor(32)            - (40)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(33)            - (50)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(2)
+Professor(34)            - (34)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(3)
+Professor(37)            - (2)Escola //  Hab(prof/escola) (2/1)  Pref.Prof(2)
+Professor(40)            - (11)Escola //  Hab(prof/escola) (3/3)  Pref.Prof(4)
+Professor(42)            - (4)Escola //  Hab(prof/escola) (2/1)  Pref.Prof(2)
+Professor(43)            - (43)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(3)
+Professor(46)            - (46)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(3)
+Professor(47)            - (47)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(3)
+Professor(48)            - (48)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(3)
+Professor(52)            - (49)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(53)            - (48)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(54)            - (47)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(55)            - (46)Escola //  Hab(prof/escola) (3/2)  Pref.Prof(1)
+Professor(56)            - (45)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(57)            - (44)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(58)            - (43)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(59)            - (42)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(60)            - (41)Escola //  Hab(prof/escola) (3/2)  Pref.Prof(1)
+Professor(62)            - (39)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(63)            - (38)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(64)            - (37)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(65)            - (36)Escola //  Hab(prof/escola) (3/2)  Pref.Prof(1)
+Professor(66)            - (35)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(67)            - (34)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(68)            - (33)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(69)            - (32)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(70)            - (31)Escola //  Hab(prof/escola) (3/2)  Pref.Prof(1)
+Professor(71)            - (1)Escola //  Hab(prof/escola) (1/1)  Pref.Prof(3)
+Professor(72)            - (29)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(73)            - (28)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(74)            - (27)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(1)
+Professor(75)            - (26)Escola //  Hab(prof/escola) (3/2)  Pref.Prof(1)
+Professor(79)            - (27)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(2)
+Professor(80)            - (21)Escola //  Hab(prof/escola) (3/3)  Pref.Prof(1)
+Professor(83)            - (32)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(4)
+Professor(84)            - (44)Escola //  Hab(prof/escola) (2/2)  Pref.Prof(2)
+Professor(85)            - (16)Escola //  Hab(prof/escola) (3/3)  Pref.Prof(1)
+Professor(90)            - (11)Escola //  Hab(prof/escola) (3/3)  Pref.Prof(1)
+Professor(92)            - (9)Escola //  Hab(prof/escola) (2/1)  Pref.Prof(1)
+Professor(93)            - (8)Escola //  Hab(prof/escola) (2/1)  Pref.Prof(1)
+Professor(94)            - (7)Escola //  Hab(prof/escola) (2/1)  Pref.Prof(1)
+Professor(95)            - (6)Escola //  Hab(prof/escola) (3/1)  Pref.Prof(1)
+Professor(96)            - (5)Escola //  Hab(prof/escola) (2/1)  Pref.Prof(1)
+Professor(97)            - (4)Escola //  Hab(prof/escola) (2/1)  Pref.Prof(1)
+Professor(98)            - (3)Escola //  Hab(prof/escola) (2/1)  Pref.Prof(1)
+Professor(99)            - (2)Escola //  Hab(prof/escola) (2/1)  Pref.Prof(1)
+Professor(100)            - (1)Escola //  Hab(prof/escola) (3/1)  Pref.Prof(1)
+Escolas com vagas disponiveis:
+Escola - 12/hab.3/  v.disp - 2/ v.total - 2
+Escola - 13/hab.3/  v.disp - 2/ v.total - 2
+Escola - 14/hab.3/  v.disp - 2/ v.total - 2
+Escola - 15/hab.3/  v.disp - 1/ v.total - 1
+Escola - 17/hab.3/  v.disp - 1/ v.total - 1
+Escola - 18/hab.3/  v.disp - 1/ v.total - 1
+Escola - 19/hab.3/  v.disp - 2/ v.total - 2
+Escola - 21/hab.3/  v.disp - 1/ v.total - 2
+Escola - 22/hab.3/  v.disp - 1/ v.total - 1
+Escola - 23/hab.3/  v.disp - 1/ v.total - 2
+Escola - 24/hab.3/  v.disp - 1/ v.total - 1
+Escola - 25/hab.3/  v.disp - 1/ v.total - 2
+Escola - 33/hab.2/  v.disp - 1/ v.total - 2
+Escola - 42/hab.2/  v.disp - 1/ v.total - 2
+
+
+Professores livres:
+
+Professor - 3 /atual(5) /habs2 /prefs :  10 20 3 27 7
+Professor - 4 /atual(5) /habs2 /prefs :  10 20 4 27 9
+Professor - 5 /atual(5) /habs3 /prefs :  10 20 5 27 11
+Professor - 7 /atual(5) /habs2 /prefs :  10 5 7 37 15
+Professor - 8 /atual(5) /habs2 /prefs :  10 5 8 35 17
+Professor - 11 /atual(5) /habs2 /prefs :  20 30 11 35 25
+Professor - 12 /atual(5) /habs2 /prefs :  20 30 12 35 27
+Professor - 13 /atual(5) /habs2 /prefs :  20 30 13 35 29
+Professor - 14 /atual(5) /habs2 /prefs :  20 30 14 48 31
+Professor - 16 /atual(5) /habs2 /prefs :  20 35 16 48 35
+Professor - 17 /atual(5) /habs2 /prefs :  20 35 17 48 37
+Professor - 18 /atual(5) /habs2 /prefs :  20 35 18 48 39
+Professor - 21 /atual(5) /habs1 /prefs :  30 40 21 10 45
+Professor - 24 /atual(5) /habs2 /prefs :  30 40 24 10 2
+Professor - 27 /atual(5) /habs2 /prefs :  30 45 27 23 8
+Professor - 28 /atual(5) /habs2 /prefs :  30 45 28 23 12
+Professor - 31 /atual(5) /habs1 /prefs :  40 50 31 41 18
+Professor - 35 /atual(5) /habs3 /prefs :  40 50 35 31 26
+Professor - 36 /atual(5) /habs2 /prefs :  40 50 36 21 28
+Professor - 38 /atual(5) /habs2 /prefs :  40 2 38 21 34
+Professor - 39 /atual(5) /habs2 /prefs :  40 2 39 21 36
+Professor - 41 /atual(5) /habs1 /prefs :  40 2 41 11 42
+Professor - 44 /atual(5) /habs2 /prefs :  40 4 44 11 48
+Professor - 45 /atual(5) /habs3 /prefs :  40 4 45 11 5
+Professor - 49 /atual(5) /habs2 /prefs :  40 6 49 1 45
+Professor - 50 /atual(5) /habs3 /prefs :  40 6 50 1 45
+Professor - 51 /atual(5) /habs1 /prefs :  50 6 49 1 45
+Professor - 61 /atual(5) /habs1 /prefs :  40 8 4 7 15
+Professor - 76 /atual(5) /habs2 /prefs :  25 13 7 2 35
+Professor - 77 /atual(5) /habs2 /prefs :  24 13 7 26 35
+Professor - 78 /atual(5) /habs2 /prefs :  23 13 47 27 35
+Professor - 81 /atual(5) /habs1 /prefs :  20 27 34 30 11
+Professor - 82 /atual(5) /habs2 /prefs :  19 27 34 31 20
+Professor - 86 /atual(5) /habs2 /prefs :  15 44 3 35 20
+Professor - 87 /atual(5) /habs2 /prefs :  14 44 4 36 20
+Professor - 88 /atual(5) /habs2 /prefs :  13 44 4 37 20
+Professor - 89 /atual(5) /habs2 /prefs :  12 44 4 38 20
+Professor - 91 /atual(5) /habs1 /prefs :  10 47 4 40 1

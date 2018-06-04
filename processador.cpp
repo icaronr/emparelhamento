@@ -176,4 +176,14 @@ void Processador::mostrador(){
         if(ex.vagasDiponiveis>0)
             cout << "Escola - " << ex.id << "/hab." << ex.habilitacoes << "/  v.disp - " << ex.vagasDiponiveis << "/ v.total - " << ex.vagasTotal << endl;
     }
+    cout << "\n\nProfessores livres:\n" << endl;
+    for(auto pro: professoress){
+        if(pro.emparelhado == false){
+            cout << "Professor - " << pro.id << " /atual(" << pro.prefAtual << ") /habs" << pro.habilitacoes << " /prefs : ";
+            for(int i=0; i<5;i++){
+                cout << " " << pro.preferencias[i];
+            }
+            cout << endl;
+        }
+    }
 }
