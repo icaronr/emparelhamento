@@ -107,6 +107,7 @@ while((listasPercorridas+alocados < professoress.size())){
                             if ((professoress[profAtual - 1].habilitacoes != escolass[eid-1].habilitacoes)&&(professoress[pIndex].habilitacoes == escolass[eid - 1].habilitacoes)){
                                 deveTrocar = true;
                             }
+                            
                         }
                         if(deveTrocar){
                             // id = index + 1 -- profAtual é ID.
@@ -169,7 +170,7 @@ while((listasPercorridas+alocados < professoress.size())){
                 alocados++;
             }
         }
-        cout << "\n\nlistas finalizadas -- " << listasPercorridas << " /  Alocados  " << alocados << endl;
+        cout << "\n\nAlocados  " << alocados << endl;
     }
 
 }
@@ -180,12 +181,12 @@ void Processador::mostrador(){
         if(prof.emparelhado){
             int target = prof.parAlvo;
         cout <<"Professor(" << prof.id << ")";
-        cout << setw(15) << " - (";
+        cout << setw(3) << " - (";
         cout <<  prof.parAlvo <<")Escola //" << "  Hab(prof/escola) (" << prof.habilitacoes << "/" << escolass[target-1].habilitacoes << ")";
         cout << "  Pref.Prof(" << prof.parPeso << ")" << endl;
         }
     }
-    cout << "Escolas com vagas disponiveis:" << endl;
+    cout << "\n\nEscolas com vagas disponiveis:" << endl;
     for(auto ex: escolass){
         if(ex.vagasDiponiveis>0)
             cout << "Escola - " << ex.id << "/hab." << ex.habilitacoes << "/  v.disp - " << ex.vagasDiponiveis << "/ v.total - " << ex.vagasTotal << endl;
@@ -193,7 +194,7 @@ void Processador::mostrador(){
     cout << "\n\nProfessores livres:\n" << endl;
     for(auto pro: professoress){
         if(pro.emparelhado == false){
-            cout << "Professor - " << pro.id << " /atual(" << pro.prefAtual << ") /habs" << pro.habilitacoes << " /prefs : ";
+            cout << "Professor - " << pro.id <<  " /habs" << pro.habilitacoes << " /prefs : ";
             for(int i=0; i<5;i++){
                 cout << " " << pro.preferencias[i];
             }
